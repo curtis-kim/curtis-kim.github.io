@@ -12,3 +12,7 @@ a {
 body{
     font-family: Arial, Helvetica, sans-serif !important;
 }
+#myEmail, #interestArea, #phoneNumber{
+    text-transform: lowercase !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
