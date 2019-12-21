@@ -37,3 +37,9 @@ $dark:          $gray-800 !default;
 // Page Variables
 
 $sidebar-base-width: 17rem;
+
+// Override Bootstrap border variables
+$border-width: 0.125rem !default;
+$border-radius: 0.5rem !default;
+$border-radius-lg: 0.75rem !default;
+$border-radius-sm: 0.25rem !default;
