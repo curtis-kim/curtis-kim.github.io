@@ -151,9 +151,12 @@ body{
   }
 
   .fa-plus{
-      color: rgba(26,188,156,.9);
+      /* color: rgba(26,188,156,.9); */
+      color: rgba(78, 87, 85, 0.9);
   }
 
   .portfolio-item{
       margin-bottom: 10%;
   }
+
+ 
