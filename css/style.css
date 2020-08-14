@@ -175,7 +175,7 @@ body{
   #myImg:hover {opacity: 0.7;}
   
   /* The Modal (background) */
-  .modal {
+  .modalNewsImage {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -222,11 +222,11 @@ body{
   
   /* The Close Button */
   .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
+    position: relative;
+    bottom: 15px;
+    margin: auto;
+    color: #47fad6;
+    font-size: 50px;
     font-weight: bold;
     transition: 0.3s;
   }
