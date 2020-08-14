@@ -21,101 +21,141 @@
       <br /><br />
       Feel free to reach me at curtis.gibeomkim@gmail.com<br />
 
-      <p><strong>Qualifications</strong></p>
-      • Languages: Python, Java, C/C++, HTML, CSS, JavaScript, SQL, R, Bash<br />
-      • Networks: Basic knowledge of networks (TCP/IP, Firewall) and Linux administration<br />
-      • Database: MySQL, SQLite, PostgreSQL, MongoDB, Firebase, Airtable<br />
-      • Source Control System: Git<br />
-      • Cloud Computing Experience:<br />
-      <div class="text-indent">
-        o Developed a CICD pipeline (GitHub > Travis CI > Better Code Hub > Docker Hub > Heroku) <br />
-        o AWS experience in configuring virtual instances, Load balancer, auto scaling groups, API gateway, Lambda
-        function, and more <br />
-        o Hands-on experience in Kubernetes, Docker, CI/CD tools (Jenkins, Travis CI), and configuration tools (Ansible,
-        Chef, Puppet)<br />
-      </div>
+    <p><strong>Qualifications</strong></p>
+    • Languages: Python, Java, C/C++, HTML, CSS, JavaScript, SQL, R, Bash<br />
+    • Networks: Basic knowledge of networks (TCP/IP, Firewall) and Linux administration<br />
+    • Database: MySQL, SQLite, PostgreSQL, MongoDB, Firebase, Airtable<br />
+    • Source Control System: Git<br />
+    • Cloud Computing Experience:<br />
+    <div class="text-indent">
+      o Developed a CICD pipeline (GitHub > Travis CI > Better Code Hub > Docker Hub > Heroku) <br />
+      o AWS experience in configuring virtual instances, Load balancer, auto scaling groups, API gateway, Lambda
+      function, and more <br />
+      o Hands-on experience in Kubernetes, Docker, CI/CD tools (Jenkins, Travis CI), and configuration tools (Ansible,
+      Chef, Puppet)<br />
+    </div>
 
-      • Web Development Skills:<br />
-      <div class="text-indent">
-        o MVC pattern, Template Engine, Restful APIs, jQuery, Bootstrap, Database Communication, Asynchronous,
-        Node.js, Django Frameworks, Cloud Deployment<br />
-      </div>
-      <hr>
+    • Web Development Skills:<br />
+    <div class="text-indent">
+      o MVC pattern, Template Engine, Restful APIs, jQuery, Bootstrap, Database Communication, Asynchronous,
+      Node.js, Django Frameworks, Cloud Deployment<br />
+    </div>
+    <hr>
 
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Current News</h2>
-      <div class="container">
-        <div class="w-100">
-          <!-- Portfolio Section Heading -->
-          <!-- <h4 class="page-section-heading text-center text-uppercase text-secondary mb-5">News</h4> -->
-          <!-- Icon Divider -->
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Current News</h2>
+    <div class="container">
+      <div class="w-100">
+        <!-- Portfolio Section Heading -->
+        <!-- <h4 class="page-section-heading text-center text-uppercase text-secondary mb-5">News</h4> -->
+        <!-- Icon Divider -->
 
 
-          <!-- Portfolio Grid Items -->
-          <div class="row justify-content-around">
-            <div class="col-8">
-              <img class="img-fluid image" src="img/intro/all_news.png" alt="">
+        <!-- Portfolio Grid Items -->
+        <div class="row justify-content-around">
+          <div class="col-8">
+            <img id="myImg" class="img-fluid image" src="img/intro/all_news.png" alt=""
+              style="width:80%; margin:auto;">
+
+
+            <!-- <img src="img/intro/all_news.png" style="width:30%;cursor:zoom-in"
+                onclick="document.getElementById('modal01').style.display='block'"> -->
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
             </div>
+            <script>
+              // MODAL JS
+              // Get the modal
+              var modal = document.getElementById("myModal");
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img = document.getElementById("myImg");
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function () {
+                modal.style.display = "none";
+              }
+
+            </script>
           </div>
-          <br><br>
-          <hr/>
-          <div class="row justify-content-around">
-
-            <!-- Portfolio Item 1 -->
-            <div class="col-3" style="max-height: 517px;">
-              <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro-1">
-                <img class="img-fluid image" src="img/intro/tricity_us_news.png" alt="">
-                <div class="middle">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h4 class="text-center">COVID-19 Updates: US</h4>
-            </div>
-            <div class="col-3" style="max-height: 517px;">
-              <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro0">
-                <img class="img-fluid image" src="img/intro/cbcnews.png" alt="">
-                <div class="middle">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h4 class="text-center">COVID-19 Updates: Canada</h4>
-            </div>
-            <div class="col-3" style="max-height: 517px;">
-              <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro1">
-                <img class="img-fluid image" src="img/intro/inovateBC.png" alt="">
-                <div class="middle">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h4 class="text-center">InnovateBC News (Nov 2019)</h4>
-            </div>
-
-            <div class="col-3" style="max-height: 517px;">
-              <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro2">
-                <img class="img-fluid image" src="img/intro/ipiu2016.png" alt="">
-                <div class="middle">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <h4 class="text-center">IPIU (Apr 2016)</h4>
-              <p class="text-center">28th Workshop on Image Processing and Image Understanding</p>
-            </div>
-
-          </div>
-          <!-- /.row -->
-          <!-- Portfolio Item 1 -->
         </div>
+        <br><br>
+        <hr />
+        <div class="row justify-content-around">
+
+          <!-- Portfolio Item 1 -->
+          <div class="col-3" style="max-height: 517px;">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro-1">
+              <img class="img-fluid image" src="img/intro/tricity_us_news.png" alt="">
+              <div class="middle">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <h4 class="text-center">COVID-19 Updates: US</h4>
+          </div>
+          <div class="col-3" style="max-height: 517px;">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro0">
+              <img class="img-fluid image" src="img/intro/cbcnews.png" alt="">
+              <div class="middle">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <h4 class="text-center">COVID-19 Updates: Canada</h4>
+          </div>
+          <div class="col-3" style="max-height: 517px;">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro1">
+              <img class="img-fluid image" src="img/intro/inovateBC.png" alt="">
+              <div class="middle">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <h4 class="text-center">InnovateBC News (Nov 2019)</h4>
+          </div>
+
+          <div class="col-3" style="max-height: 517px;">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#intro2">
+              <img class="img-fluid image" src="img/intro/ipiu2016.png" alt="">
+              <div class="middle">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <h4 class="text-center">IPIU (Apr 2016)</h4>
+            <p class="text-center">28th Workshop on Image Processing and Image Understanding</p>
+          </div>
+
+        </div>
+        <!-- /.row -->
+        <!-- Portfolio Item 1 -->
       </div>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/curtis-kim/">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/curtis-kim">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/curtisbaam/">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </div>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/curtis-kim/">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/curtis-kim">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/curtisbaam/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -148,15 +188,18 @@
               <!-- Portfolio Modal - Image -->
               <!-- <img class="img-fluid rounded mb-5" src="img/intro/innovateBC.png" alt="https://bit.ly/2L4Mv0t"> -->
               <span><b>Coquitlam app developer extends COVID-19 tracking to U.S.</b>
-                Curtis Kim launched the tracker at a time when the virus is surging across many southern U.S. states and making a comeback in his native South Korea.</span>
-                <img class="img-fluid image" src="img/intro/tricity_us.png" alt="">
+                Curtis Kim launched the tracker at a time when the virus is surging across many southern U.S. states and
+                making a comeback in his native South Korea.</span>
+              <img class="img-fluid image" src="img/intro/tricity_us.png" alt="">
               <!-- Portfolio Modal - Text -->
-            </br>
-          </br>
+              </br>
+              </br>
               <p>
                 I made Another News
               </p>
-              <a href="https://www.tricitynews.com/news/coquitlam-app-developer-extends-covid-19-tracking-to-u-s-1.24156956">READ MORE</a><br>
+              <a
+                href="https://www.tricitynews.com/news/coquitlam-app-developer-extends-covid-19-tracking-to-u-s-1.24156956">READ
+                MORE</a><br>
               <button class="btn btn-primary" href="#" data-dismiss="modal">
                 <i class="fas fa-times fa-fw"></i>
                 Close Window
@@ -194,10 +237,11 @@
               </div>
               <!-- Portfolio Modal - Image -->
               <!-- <img class="img-fluid rounded mb-5" src="img/intro/innovateBC.png" alt="https://bit.ly/2L4Mv0t"> -->
-              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6641808721406238720" height="414" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6641808721406238720" height="414"
+                width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
               <!-- Portfolio Modal - Text -->
-            </br>
-          </br>
+              </br>
+              </br>
               <p>
                 I made news; CBC, DailyHive, Virgin Radio, BCIT LINK, TryCity News, BurnabyNow, Vancouver Courier
               </p>
@@ -240,7 +284,7 @@
               <!-- Portfolio Modal - Image -->
               <!-- <img class="img-fluid rounded mb-5" src="img/intro/innovateBC.png" alt="https://bit.ly/2L4Mv0t"> -->
               <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6607342949829349376" height="613"
-              width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
               <!-- Portfolio Modal - Text -->
               <p class="mb-5"><a href="https://bit.ly/2L4Mv0t">Read News</a></p>
               <p>
