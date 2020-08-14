@@ -81,11 +81,14 @@
               var img = document.getElementById("myImg");
               var modalImg = document.getElementById("img01");
               var captionText = document.getElementById("caption");
+              var navbar = document.getElementById("sideNav")
               img.onclick = function () {
+                navbar.style.display = "none"
                 modal.style.display = "block";
                 modalImg.src = this.src;
                 captionText.innerHTML = this.alt;
               }
+              
 
               // Get the <span> element that closes the modal
               var span = document.getElementsByClassName("close")[0];
@@ -93,6 +96,7 @@
               // When the user clicks on <span> (x), close the modal
               span.onclick = function () {
                 modal.style.display = "none";
+                navbar.style.display = "";
               }
 
             </script>
