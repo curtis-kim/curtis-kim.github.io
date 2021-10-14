@@ -11,6 +11,7 @@ a {
 
 body{
     font-family: Arial, Helvetica, sans-serif !important;
+    font-size: large;
 }
 
 #myEmail, #interestArea, #phoneNumber{
