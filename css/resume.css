@@ -1,11 +1,11 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2021 Start Bootstrap
+ * Copyright 2013-2022 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
   color: #868e96;
 }
@@ -16,14 +16,13 @@ body {
     padding-left: 17rem;
   }
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -50,7 +49,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
 
@@ -66,11 +65,9 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 }
-
 .social-icons a:last-child {
   margin-right: 0;
 }
-
 .social-icons a:hover {
   background-color: #BD5D38;
 }
@@ -78,13 +75,12 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
-
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
 }
 
 .date {
-  color: #a5790a;
+  color: rgb(165, 121, 10);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -92,7 +88,6 @@ p.lead {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
-
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -136,13 +131,11 @@ p.lead {
     display: block;
   }
 }
-
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
-
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
@@ -155,14 +148,12 @@ section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
-
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
-
 .bg-primary {
   background-color: #BD5D38 !important;
 }
@@ -174,7 +165,6 @@ section.resume-section .resume-item .resume-date {
 a {
   color: #BD5D38;
 }
-
 a:hover, a:focus, a:active {
   color: #824027;
 }
@@ -182,7 +172,6 @@ a:hover, a:focus, a:active {
 .portfolio {
   margin-bottom: -30px;
 }
-
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -192,20 +181,17 @@ a:hover, a:focus, a:active {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
-
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
@@ -214,7 +200,6 @@ a:hover, a:focus, a:active {
   font-size: 2.25rem;
   line-height: 2rem;
 }
-
 .portfolio-modal .close {
   position: absolute;
   z-index: 1;
@@ -230,7 +215,6 @@ a:hover, a:focus, a:active {
   position: relative;
   border-bottom: 1px solid #e9ecef;
 }
-
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   font-size: 1.5em;
@@ -244,7 +228,6 @@ a:hover, a:focus, a:active {
   background: none;
   box-shadow: none !important;
 }
-
 .floating-label-form-group label {
   font-size: 0.85em;
   line-height: 1.764705882em;
@@ -258,7 +241,6 @@ a:hover, a:focus, a:active {
   vertical-align: baseline;
   opacity: 0;
 }
-
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #e9ecef;
